@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/* CSS Document */
+#wrap {
+    width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+p{font-family: 'M PLUS Rounded 1c', sans-serif;}
+h2{font-family: 'M PLUS Rounded 1c', sans-serif;}
+h3{font-family: 'M PLUS Rounded 1c', sans-serif;}
+
+header{
+	background-color: skyblue;
+	width: 1080px;
+	height: 400px;
+}
+
+.menu .menu_text {
+  margin-left: 470px;
+  list-style: none;
+  display: flex;
+}
+
+.menu .menu_text ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  text-align: right;
+}
+
+.menu .menu_text li {
+  padding-top: 30px;
+  padding-left: 40px;
+  justify-content: flex-end;
+  font-family:"Comic Sans MS", "cursive";
+  font-size: 24px;
+  display: inline;
+}
+
+
+.menu .menu_text a {
+  position: relative;
+  text-decoration: none;
+  color: white;
+}
+.menu .menu_text a::after {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  display: block;
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: white;
+  transition: all 0.2s cubic-bezier(0.455, 0.03, 0.515, 0.955);
+}
+.menu .menu_text a:hover::after {
+  width: 100%;
+}
+.self{
+	color: white;
+    padding-top: 50px;
+	padding-bottom: 100px;
+	font-size: 36px;
+	margin-left: 460px;
+	padding-bottom: 5px;
+    display: inline-block;
+    border-bottom: 3px solid yellow;
+
+}
+
+.profile_text{
+	color: skyblue;
+    text-align: center;
+    padding-top: 50px;
+	padding-bottom: 20px;
+	font-family:"Comic Sans MS", "cursive";
+	font-size: 36px;
+}
+
+.flex_works {
+    display: flex;
+	justify-content: center;
+}
+.flex_works h3 {
+	margin: 10px;
+	padding-top: 50px;
+	padding-bottom: 30px;
+	
+    }
+
+.flex_works h3:hover {
+    color: skyblue;
+    }
+
+a{
+	text-decoration: none;
+	color: black;
+}
+
+a:hover{
+	color: skyblue;
+}
+
+
+.meishi_title{
+	float:left;
+	width: 530px;
+	height:350px;
+}
+
+.meishi_picture{
+	float: right;
+	width: 550px;
+	height:350px;
+	
+}
+
+.meishi_picture_sub{
+	float:left;
+	width: 480px;
+	height:350px;
+	padding-left: 100px;
+	
+}
+
+.meishi_about{
+	float: right;
+	width: 500px;
+	height:350px;
+	
+}
+.cd_title{
+	float:left;
+	width: 400px;
+	height:450px;
+	
+}
+
+.cd_picture1{
+	float: right;
+	width: 680px;
+	height:450px;
+	
+}
+.cd_picture2{
+	float:left;
+	width: 580px;
+	height:260px;
+	padding-top: 20px;
+}
+
+.cd_about1{
+	float: right;
+	width: 450px;
+	height:280px;
+	padding-left: 50px;
+}
+.cd_about2{
+	float:left;
+	width: 480px;
+	height:320px;
+	padding-right: 50px;
+}
+
+.cd_picture3{
+	float: right;
+	width: 550px;
+	height:320px;
+}
+.calender_picture{
+	float:left;
+	width: 580px;
+	height:630px;
+}
+
+.calender_about{
+	float: right;
+	width: 500px;
+	height:630px;
+}
+.poster_about{
+	float:left;
+	width: 480px;
+	height:430px;
+	padding-right: 50px;
+}
+
+.poster_picture{
+	float: right;
+	width: 550px;
+	height:430px;
+}
+#webdesign h2{
+	height: 36px;
+	
+}
+.salon_picture{
+	float:left;
+	width: 450px;
+	height:1150px;
+	padding-top: 10px;
+}
+
+.salon_about{
+	float: right;
+	width: 630px;
+	height:1160px;
+}
+
+.salon_flame{
+	padding-top: 170px;
+}
+
+.kazino_about{
+	float:left;
+	width: 510px;
+	height:350px;
+	padding-right: 30px;
+	
+}
+
+.kazino_mov{
+	float: right;
+	width: 540px;
+	height:320px;
+	padding-top: 30px;
+}
+
+.ocean_mov{
+	float:left;
+	width: 580px;
+	height:320px;
+	padding-top: 30px;
+}
+
+.ocean_about{
+	float: right;
+	width: 500px;
+	height:350px;
+	
+}
+
+footer{
+	background-color: black;
+	height: 50px;
+	position: absolute;
+    bottom: 0;
+}
+
+footer p{
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+	position: absolute;
+    bottom: 0;
+}
